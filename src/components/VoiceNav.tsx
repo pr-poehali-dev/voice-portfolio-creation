@@ -109,9 +109,9 @@ export function Hero() {
         </p>
 
         <h1 className="font-display leading-none tracking-tight mb-6 animate-fade-up" style={{ fontSize: 'clamp(4rem,12vw,9rem)', animationDelay: '0.4s', opacity: 0 }}>
-          <span className="text-shimmer">Алексей</span>
+          <span className="text-shimmer">Фаргат</span>
           <br />
-          <span className="text-white/85 italic font-light">Воронов</span>
+          <span className="text-white/85 italic font-light">Закиров</span>
         </h1>
 
         <p className="text-base md:text-lg text-white/35 max-w-md mx-auto leading-relaxed mb-12 animate-fade-up" style={{ animationDelay: '0.6s', opacity: 0 }}>

@@ -167,7 +167,7 @@ export function Footer() {
         <div className="font-display text-lg tracking-[0.35em] uppercase" style={{ color: 'var(--gold)' }}>
           ГОЛОС
         </div>
-        <p className="text-xs text-white/15">© 2024 Алексей Воронов. Все права защищены.</p>
+        <p className="text-xs text-white/15">© 2024 Фаргат Закиров. Все права защищены.</p>
         <div className="flex items-center gap-6">
           {['ВКонтакте', 'Telegram', 'YouTube'].map(s => (
             <a key={s} href="#" className="text-xs tracking-wider uppercase text-white/20 hover:text-white/50 transition-colors">
