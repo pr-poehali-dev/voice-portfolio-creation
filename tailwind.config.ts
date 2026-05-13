@@ -56,10 +56,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				gold: '#C9A227',
-				'gold-light': '#E8C547',
-				cream: '#F0E8D8',
-				dark: '#0D0B08',
+				gold: '#D4A820',
+				'gold-light': '#F0C832',
+				cream: '#F0EAD6',
+				dark: '#070B17',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

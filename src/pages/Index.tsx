@@ -162,7 +162,7 @@ function Nav() {
     <nav
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
       style={{
-        background: scrolled ? 'rgba(13,11,8,0.96)' : 'transparent',
+        background: scrolled ? 'rgba(7,11,23,0.97)' : 'transparent',
         backdropFilter: scrolled ? 'blur(20px)' : 'none',
         borderBottom: scrolled ? '1px solid rgba(201,162,39,0.08)' : 'none',
       }}
@@ -194,7 +194,7 @@ function Nav() {
         </button>
       </div>
       {menuOpen && (
-        <div className="md:hidden px-6 py-5 space-y-5 border-t" style={{ background: 'rgba(13,11,8,0.98)', borderColor: 'rgba(255,255,255,0.06)' }}>
+        <div className="md:hidden px-6 py-5 space-y-5 border-t" style={{ background: 'rgba(7,11,23,0.98)', borderColor: 'rgba(255,255,255,0.06)' }}>
           {links.map(l => (
             <a
               key={l.href}
@@ -217,7 +217,7 @@ function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       <div className="absolute inset-0" style={{
-        background: 'radial-gradient(ellipse 80% 60% at 50% 40%, rgba(201,162,39,0.06) 0%, transparent 70%)',
+        background: 'radial-gradient(ellipse 80% 60% at 50% 40%, rgba(30,60,160,0.25) 0%, rgba(212,168,32,0.05) 60%, transparent 100%)',
       }} />
 
       {/* Background wave */}
@@ -261,9 +261,9 @@ function Hero() {
           <a
             href="#demo"
             className="group flex items-center justify-center gap-3 px-8 py-4 font-medium tracking-[0.1em] uppercase text-sm transition-all duration-300 hover:opacity-90"
-            style={{ background: 'var(--gold)', color: '#0D0B08' }}
+            style={{ background: 'var(--gold)', color: '#070B17' }}
           >
-            <Icon name="Play" size={16} style={{ color: '#0D0B08' }} />
+            <Icon name="Play" size={16} style={{ color: '#070B17' }} />
             Слушать демо
           </a>
           <a
@@ -327,8 +327,8 @@ function About() {
             className="absolute -bottom-6 -left-6 px-6 py-4 rounded-lg"
             style={{ background: 'var(--gold)' }}
           >
-            <div className="font-display text-3xl font-semibold" style={{ color: '#0D0B08' }}>№1</div>
-            <div className="text-xs tracking-wider uppercase font-medium" style={{ color: 'rgba(13,11,8,0.6)' }}>в своём деле</div>
+            <div className="font-display text-3xl font-semibold" style={{ color: '#070B17' }}>№1</div>
+            <div className="text-xs tracking-wider uppercase font-medium" style={{ color: 'rgba(7,11,23,0.6)' }}>в своём деле</div>
           </div>
         </div>
       </div>
@@ -363,7 +363,7 @@ function Works() {
             <div
               key={i}
               className="card-hover group p-8 cursor-pointer"
-              style={{ background: '#0D0B08' }}
+              style={{ background: '#070B17' }}
             >
               <div className="flex items-start justify-between mb-6">
                 <span className="text-xs px-3 py-1 rounded-full" style={{ background: 'rgba(201,162,39,0.1)', color: 'var(--gold)' }}>
@@ -522,7 +522,7 @@ function Price() {
                 href="#contacts"
                 className="block text-center py-3 text-sm tracking-[0.1em] uppercase transition-all duration-300 hover:opacity-85"
                 style={p.featured
-                  ? { background: 'var(--gold)', color: '#0D0B08' }
+                  ? { background: 'var(--gold)', color: '#070B17' }
                   : { border: '1px solid rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.4)' }
                 }
               >
@@ -610,7 +610,7 @@ function Contacts() {
           <button
             type="submit"
             className="w-full py-4 text-sm tracking-[0.15em] uppercase font-medium transition-all duration-300 hover:opacity-90"
-            style={{ background: 'var(--gold)', color: '#0D0B08' }}
+            style={{ background: 'var(--gold)', color: '#070B17' }}
           >
             Отправить заявку
           </button>
@@ -644,7 +644,7 @@ function Footer() {
 // === MAIN ===
 export default function Index() {
   return (
-    <div style={{ background: 'var(--dark)', minHeight: '100vh' }}>
+    <div style={{ background: 'var(--dark)', minHeight: '100vh', color: 'var(--cream)' }}>
       <Nav />
       <Hero />
       <About />

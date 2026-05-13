@@ -4,41 +4,41 @@
 
 @layer base {
   :root {
-    --background: 20 10% 5%;
-    --foreground: 40 20% 92%;
+    --background: 225 45% 6%;
+    --foreground: 45 30% 90%;
 
-    --card: 20 10% 8%;
-    --card-foreground: 40 20% 92%;
+    --card: 225 40% 9%;
+    --card-foreground: 45 30% 90%;
 
-    --popover: 20 10% 8%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 225 40% 9%;
+    --popover-foreground: 45 30% 90%;
 
-    --primary: 35 80% 58%;
-    --primary-foreground: 20 10% 5%;
+    --primary: 45 85% 52%;
+    --primary-foreground: 225 45% 6%;
 
-    --secondary: 20 10% 12%;
-    --secondary-foreground: 40 20% 92%;
+    --secondary: 225 35% 14%;
+    --secondary-foreground: 45 30% 90%;
 
-    --muted: 20 10% 12%;
-    --muted-foreground: 40 10% 55%;
+    --muted: 225 35% 14%;
+    --muted-foreground: 225 20% 55%;
 
-    --accent: 35 80% 58%;
-    --accent-foreground: 20 10% 5%;
+    --accent: 45 85% 52%;
+    --accent-foreground: 225 45% 6%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 30 10% 18%;
-    --input: 30 10% 18%;
-    --ring: 35 80% 58%;
+    --border: 225 30% 16%;
+    --input: 225 30% 16%;
+    --ring: 45 85% 52%;
 
     --radius: 0.25rem;
 
-    --gold: #c9a227;
-    --gold-light: #e8c547;
-    --cream: #f0e8d8;
-    --dark: #0d0b08;
-    --dark-mid: #1a1612;
+    --gold: #d4a820;
+    --gold-light: #f0c832;
+    --cream: #f0ead6;
+    --dark: #070b17;
+    --dark-mid: #0d1526;
   }
 }
 
@@ -110,12 +110,14 @@ body::before {
 @keyframes glow-pulse {
   0%,
   100% {
-    box-shadow: 0 0 20px rgba(201, 162, 39, 0.3);
+    box-shadow:
+      0 0 20px rgba(212, 168, 32, 0.25),
+      0 0 60px rgba(30, 60, 140, 0.3);
   }
   50% {
     box-shadow:
-      0 0 40px rgba(201, 162, 39, 0.6),
-      0 0 80px rgba(201, 162, 39, 0.2);
+      0 0 40px rgba(212, 168, 32, 0.5),
+      0 0 100px rgba(30, 60, 140, 0.5);
   }
 }
 
